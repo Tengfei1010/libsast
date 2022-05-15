@@ -63,7 +63,7 @@ class SemanticGrep:
                     'files': [file_details],
                     'metadata': metadata,
                 }
-                self.expand_mappings(smatches[rule_id])
+                # self.expand_mappings(smatches[rule_id])
 
     def expand_mappings(self, meta):
         """Expand libsast standard mappings."""
